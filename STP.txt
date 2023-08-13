@@ -1,0 +1,13 @@
+問１　switch3
+　　　ブリッジプライオリティが一番小さい値であるため。
+　　
+
+問２　switch1 F0/1：DP      switch2のF0/1がRPのため。
+　　　switch1 F0/2：RP　　　ルートブリッジに一番近いポートであるため。
+　　　switch2 F0/1：RP           ルートブリッジに一番近いポートであるため。
+　　　switch2 F0/2：BP 　　  RPでもDPでもないため。
+　　　switch3 E0/1：DP      switch4のE0/1がRPのため。
+           switch3 E0/2：DP      switch1のF0/2がRPのため。
+           switch4 E0/1：DP           コリジョンドメインでルートブリッジに最も近いポートであるため。
+　　　switch4 E0/2：RP      ルートブリッジに一番近いポートであるため。
+　　　
